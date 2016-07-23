@@ -1,0 +1,36 @@
+table {
+    border-spacing: 10px;
+    border-collapse: separate;
+    border: 3px solid black;
+}
+
+th {
+  border: 1px solid turquoise;
+  width: 50px;
+  height: 50px;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.filled-1 {
+  background-color: blue;
+}
+
+.filled-2 {
+  background-color: red;
+}
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}
